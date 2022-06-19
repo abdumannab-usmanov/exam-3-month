@@ -1,0 +1,112 @@
+.skills{
+    padding-top: 70px ;
+    margin-bottom: 90px;
+}
+
+
+.skills__list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.skills__item{
+    width: 100%;
+    max-width: 280px;
+    padding: 0;
+}
+
+.skills__title{
+    font-family: "Roboto";
+    font-weight:700 ;
+    font-size: 18px ;
+    line-height: 27px ;
+    color:#222222;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.skills__text{
+    font-family: "Roboto";
+    font-weight:400 ;
+    font-size: 15px ;
+    line-height: 24px ;
+    color:#222222;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.skills__box{
+    display: flex;
+
+
+}
+
+.skills__boxes{
+    width: 8px;
+    height: 8px;
+    background-color: #DDDDDD;
+    margin-right:10px ;
+}
+
+.skills__content{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.skills__line{
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: width 0.4s ease;
+}
+
+.skills__line:hover{
+    width: 50px;
+
+}
+
+.skills__link{
+    font-family: "Roboto";
+    font-weight:700 ;
+    font-size: 16px;
+    line-height: 25px ;
+    color:#EA625C ;
+    text-decoration: none;
+}
+
+.corusel{
+    display: none;
+}
+
+
+@media only screen and (max-width:520px){
+    .skills{
+        padding: 0;
+    }
+
+    .skills__item{
+        width: 100%;
+        max-width: 310px;
+        padding: 15px;
+        border-radius: 2px;
+        background: #F5F5F5;
+    }
+
+    .skills__list{
+        display: none;
+    }
+
+    .corusel{
+        display: block;
+    }
+    
+
+}

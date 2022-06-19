@@ -1,0 +1,68 @@
+
+.health{
+    background-image: url("../../img/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: 1550px 680px ; 
+    padding-top: 165px;
+    padding-bottom: 176px;
+}
+
+.health__freedom{
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    
+}
+
+.health__title{
+    font-family:"Roboto";
+    font-weight: 700;
+    font-size:50px ;
+    line-height:60px ;
+    color:#FFFFFF;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.health__text{
+    font-family:"Roboto" ;
+    font-weight: 400;
+    font-size:16px ;
+    line-height:24px;
+    color:#FFFFFF;
+    padding-left: 40px;
+    border-left: 3px solid #FFFFFF;
+    margin-bottom: 30px;
+}
+
+
+
+
+.health__link{
+    color:#FFFFFF;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size:18px ;
+    line-height:27px ;
+    text-decoration: none;
+    width: 260px;
+    height: 51px;
+    background-color: #EA625C;
+    padding: 12px 38px;
+    text-align: center;
+    
+}
+
+
+
+
+@media only screen and (max-width:520px){
+    .health{
+        background-image: url("../../img/runners_mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+        padding-top: 96px;
+        padding-bottom: 106px;
+    }
+}

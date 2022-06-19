@@ -1,0 +1,106 @@
+
+.brand{
+    margin-bottom: 90px;
+}
+
+.brand__freedom{
+    
+    display: flex;
+    align-items: center;
+}
+
+
+.brand__inner{
+    width: 100%;
+    max-width: 490px;
+    margin-right: auto;
+    // padding: 92px 0;
+}
+
+.brand__title{
+    font-family:"Roboto";
+    font-weight: 700;
+    font-size:50px ;
+    line-height:60px ;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.brand__text{
+    font-family:"Roboto" ;
+    font-weight: 400;
+    font-size:16px ;
+    line-height:24px;
+    color: #777777;
+    padding-left: 40px;
+    border-left: 3px solid #888888;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
+
+
+.brand__link{
+    color:#FFFFFF;
+    display: block;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size:18px ;
+    line-height:27px ;
+    text-decoration: none;
+    width: 260px;
+    height: 51px;
+    background-color: #EA625C;
+    padding: 12px 38px;
+    text-align: center;
+    
+}
+
+
+
+
+.brand__watch{
+    width: 100%;
+    max-width: 381px;
+    max-height: 572px;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width:520px){
+    
+    .brand{
+        margin-bottom: 70px;
+    }
+    
+    .brand__freedom{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .brand__title{
+        font-size: 46px;
+    }
+
+    // .brand__wrapper{
+    //     width: 100%;
+    //     max-width: 336px;
+    // }
+
+    .brand__watch{
+        margin-bottom: 41px;
+        order: -1;
+    }
+
+}
+
+
+@media only screen and (max-width:375px){
+    .brand__watch{
+        width: 100%;
+        max-width: 343px;
+        max-height: 420px;
+    }
+}

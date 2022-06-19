@@ -4,9 +4,296 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
     
+    <header class="header">
+        
+        <div class="container">
+            
+            <h1 class="visually-hidden">Coffeeroaster</h1>
+            
+            <div class="header__inner">
+                
+                <a class="header__logo" href="./index.html">
+                    <img  src="./img/apple.svg" alt="logotip">
+                </a>        
+                
+                <nav class="header__menu">
+                    
+                    <ul class="header__list">
+                        
+                        <li class="header__item"><a class="header__link" href="./index.html">Home</a></li>
+                        <li class="header__item"><a class="header__link" href="./index.html">About</a></li>
+                        <li class="header__item"><a class="header__link" href="./index.html">Offers</a></li>
+                        <li class="header__item"><a class="header__link" href="./index.html">Services</a></li>
+                        <li class="header__item-two">
+                            <form action="https://echo.htmlacademy.ru/">
+                                <label>
+                                    <input class="header__search" type="search" placeholder="How can we help you?">
+                                </label>
+                            </form>
+                            
+                        </li>
+                        
+                    </ul>    
+                    
+                </nav>
+                
+                
+                <button class="header__burger-btn">&#x2630;</button>
+                
+                
+            </div>
+            
+        </div>
+        
+    </header>
+    
+    
+    <main>
+        
+        <section class="hero">
+            
+            <div class="container">
+                
+                <div class="hero__freedom">
+                    
+                    <h1 class="hero__title">
+                        Freedom calls.
+                    </h1>
+                    
+                    <p class="hero__text"> 
+                        Answer a call from your surfboard. Ask Siri to send a message. Stream your favorite songs on your run.
+                        And do it all while leaving your phone behind.
+                        Introducing Apple Watch Series 3 with cellular. Now you have the freedom to go with just your watch.
+                    </p>
+                    
+                    <div class="hero__key">
+                        <a class="hero__link" href="./index.html">Watch the keynote</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section class="skills">
+            
+            <div class="container">
+                
+                <div class="skills__inner">
+                    
+                    
+                    <!-- ====================== -->
+                    
+                    <div id="carouselExampleControls" class="carousel slide corusel" data-bs-ride="carousel">
+                        <ul class="corusel skills__list carousel-inner">
+                            <li class="skills__item carousel-item active">
+                                <h2 class="skills__title">
+                                    Know your runs. In and out.
+                                </h2>
+                                
+                                <p class="skills__text">
+                                    Train smarter with more in-run stats. Want to compare a run to your last five? 
+                                    Just swipe left. Mark splits by selecting pause or using gestures, 
+                                    like tapping the screen or double-clicking the side button. 
+                                    And get a full post-run report, including elevation.
+                                </p>                      
+                                
+                                <div class="skills__box">
+                                    <span class="skills__boxes"></span>
+                                    <span class="skills__boxes"></span>
+                                    <span class="skills__boxes"></span>
+                                </div>
+                            </li>
+                            
+                            <li class="skills__item carousel-item">
+                                <h2 class="skills__title">
+                                    Run in good spirits.
+                                </h2>
+                                
+                                <p class="skills__text">
+                                    A little support can go a long way. You can receive encouraging emoji from friends.
+                                    And reminders triggered by your friends’ shared activity, the current weather,
+                                    or your own history give you every reason to run.
+                                </p>                      
+                                
+                                <div class="skills__box">
+                                    <span class="skills__boxes"></span>
+                                    <span class="skills__boxes"></span>
+                                    <span class="skills__boxes"></span>
+                                </div>
+                            </li>
+                            
+                            <li class=" skills__item carousel-item">
+                                <h2 class="skills__title">
+                                    Just do it. Sunday.
+                                </h2>
+                                
+                                <p class="skills__text">
+                                    Run every Sunday and see how long you can keep your streak alive. 
+                                    Fuel your run with exclusive Nike+ Run Club playlists on Apple Music.
+                                </p>                      
+                                
+                                <div class="skills__content">
+                                    
+                                    <span class="skills__line"></span>
+                                    <a class="skills__link" href="index.html">Learn more</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                    <!-- =============================== -->
+                    
+                    <ul class="skills__list"> 
+                        
+                        <li class="skills__item">
+                            
+                            <h2 class="skills__title">
+                                Know your runs. In and out.
+                            </h2>
+                            
+                            <p class="skills__text">
+                                Train smarter with more in-run stats. Want to compare a run to your last five? 
+                                Just swipe left. Mark splits by selecting pause or using gestures, 
+                                like tapping the screen or double-clicking the side button. 
+                                And get a full post-run report, including elevation.
+                            </p>                      
+                            
+                            <div class="skills__box">
+                                <span class="skills__boxes"></span>
+                                <span class="skills__boxes"></span>
+                                <span class="skills__boxes"></span>
+                            </div>
+                            
+                        </li>
+                        
+                        
+                        <li class="skills__item">
+                            
+                            <h2 class="skills__title">
+                                Run in good spirits.
+                            </h2>
+                            
+                            <p class="skills__text">
+                                A little support can go a long way. You can receive encouraging emoji from friends.
+                                And reminders triggered by your friends’ shared activity, the current weather,
+                                or your own history give you every reason to run.
+                            </p>                      
+                            
+                            <div class="skills__box">
+                                <span class="skills__boxes"></span>
+                                <span class="skills__boxes"></span>
+                                <span class="skills__boxes"></span>
+                            </div>
+                            
+                        </li>
+                        
+                        <li class="skills__item">
+                            
+                            <h2 class="skills__title">
+                                Just do it. Sunday.
+                            </h2>
+                            
+                            <p class="skills__text">
+                                Run every Sunday and see how long you can keep your streak alive. 
+                                Fuel your run with exclusive Nike+ Run Club playlists on Apple Music.
+                            </p>                      
+                            
+                            <div class="skills__content">
+                                
+                                <span class="skills__line"></span>
+                                <a class="skills__link" href="index.html">Learn more</a>
+                            </div>
+                            
+                        </li>
+                        
+                        
+                    </ul> 
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <section class="brand">
+            
+            <div class="container">
+                
+                <div class="brand__freedom">
+                    
+                    <div class="brand__inner">
+                        
+                        <h2 class="brand__title">
+                            Nike Sport Band.
+                            Light. Flexible.
+                            Breathable.
+                        </h2>
+                        
+                        <p class="brand__text"> 
+                            Made from the same durable, lightweight fluoroelastomer as the original Apple Watch Sport Band, 
+                            the Nike Sport Band reduces weight and improves ventilation via row after row of compression-molded perforations.
+                        </p>
+                        
+                        <div class="brand__key">
+                            <a class="brand__link" href="./index.html">Buy now</a>
+                        </div>
+                        
+                    </div>
+                    
+                    <img class="brand__watch" src="./img/watch-in-hand.png"   alt="">
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <section class="health">
+            
+            <div class="container">
+                
+                <div class="health__freedom">
+                    
+                    <h2 class="health__title">
+                        Take control of your health. 
+                    </h2>
+                    
+                    <p class="health__text"> 
+                        With built-in GPS and altimeter, Apple Watch Nike+ has all the features to help you take your run to the next level. 
+                        You can even pair your watch wirelessly with compatible gym equipment.
+                        And it’s swimproof, so you can take a post-run dip in the pool.
+                    </p>
+                    
+                    <div class="health__key">
+                        <a class="health__link" href="./index.html">Explore features</a>
+                    </div>
+                    
+                </div>
+                
+                
+                
+                
+            </div>
+            
+        </section>
+        
+    </main>
+    
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
